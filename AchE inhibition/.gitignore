@@ -1,0 +1,8 @@
+build/main.aux
+build/main.bbl
+build/main.fdb_latexmk
+build/main.blg
+build/main.fls
+build/main.log
+build/main.out
+build/main.synctex.gz

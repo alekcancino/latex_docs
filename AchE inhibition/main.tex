@@ -1,0 +1,36 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage[utf8]{inputenc} %Acentos con el teclado normal, (clásico sería cla\'sico)
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{graphicx} %Permite insertar imágenes con el comando \includegraphics(ruta/nombre-imagen)
+
+\usepackage{hyperref} %Utilizada para agregar hipervínculos, únicamente se escribe \url{} y entre las llaves va el link correspondiente. Ver ejemplo en la sección bibliografía.
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\usepackage[top=2.0cm, bottom=2.0cm]{geometry} %Dimensiones de la página.
+
+\usepackage[spanish,mexico]{babel}
+\usepackage[version=4]{mhchem} %Paquete para usar fórmulas químicas.
+
+\DeclareCaptionType{Eq}[][List of equations]
+\captionsetup[Eq]{labelformat=empty} %caption in formula
+
+\title {Cinética de un inhibidor de la enzima Acetilcolinesterasa AChE}
+\author{Alek Cancino}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{lib/chapter1.tex} %\input tiene mayor jerarquía que \include
+
+
+\end{document}
